@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:2.1-aspnetcore-runtime AS build-env
+FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
 WORKDIR /app
 
 # Copy csproj and restore as distinct layers
@@ -13,5 +13,5 @@ CMD dotnet publish -c Release -o out
 # Build runtime image
 FROM microsoft/dotnet:2.1-aspnetcore-runtime
 WORKDIR /app
-COPY --from=build-env /app/out .
-CMD dotnet MoviesDbMVC.dll
+COPY COPY . .
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet MoviesDbMVC.dll
