@@ -42,5 +42,6 @@ namespace MoviesDbMVC.Models
 
 		[DataType(DataType.Date)]
 		public DateTime Modified { get; set; }
+		
 	}
 }
