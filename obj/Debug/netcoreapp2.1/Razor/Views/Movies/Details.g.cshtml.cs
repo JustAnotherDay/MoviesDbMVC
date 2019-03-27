@@ -244,7 +244,7 @@ using MoviesDbMVC.Models;
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(1725, 54, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6dbe29dc0b0446ed92ad389c04583b52", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "23a950baecc44808a4a18d56501d87b6", async() => {
                 BeginContext(1771, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -279,7 +279,7 @@ using MoviesDbMVC.Models;
             WriteLiteral(" |\r\n    ");
             EndContext();
             BeginContext(1787, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5f6019f9588a4aa590500c7fade43ea2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "78beac55862047b889ccbdea4bc90b84", async() => {
                 BeginContext(1809, 12, true);
                 WriteLiteral("Back to List");
                 EndContext();

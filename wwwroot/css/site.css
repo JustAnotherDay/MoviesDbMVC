@@ -35,3 +35,24 @@ body {
         display: none;
     }
 }
+
+.navbar {
+    /*min-height:71px;*/
+}
+
+.navbar-brand {
+    padding-top:0;
+    padding-bottom:0;
+}
+
+.navbar-brand img{
+    height:50px;
+}
+
+.navbar-primary {
+    background-color: #5e5e5e;
+}
+
+.width-fill {
+    width:100%;
+}

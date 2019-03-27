@@ -31,3 +31,7 @@ C:\Users\daraXi\source\repos\MoviesDbMVC\MoviesDbMVC\obj\Debug\netcoreapp2.1\Raz
 C:\Users\daraXi\source\repos\MoviesDbMVC\MoviesDbMVC\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Details.g.cshtml.cs
 C:\Users\daraXi\source\repos\MoviesDbMVC\MoviesDbMVC\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Edit.g.cshtml.cs
 C:\Users\daraXi\source\repos\MoviesDbMVC\MoviesDbMVC\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Index.g.cshtml.cs
+C:\Users\daraXi\source\repos\MoviesDbMVC\MoviesDbMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\daraXi\source\repos\MoviesDbMVC\MoviesDbMVC\obj\Debug\netcoreapp2.1\Razor\Views\Partials\_cardMovie.g.cshtml.cs
+C:\Users\daraXi\source\repos\MoviesDbMVC\MoviesDbMVC\obj\Debug\netcoreapp2.1\Razor\Views\Movies\AdminViewList.g.cshtml.cs
+C:\Users\daraXi\source\repos\MoviesDbMVC\MoviesDbMVC\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Search.g.cshtml.cs

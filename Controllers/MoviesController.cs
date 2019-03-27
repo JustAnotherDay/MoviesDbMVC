@@ -148,5 +148,20 @@ namespace MoviesDbMVC.Controllers
         {
             return _context.MovieModel.Any(e => e.Id == id);
         }
-    }
+
+		// GET: Movies with admin
+		public async Task<IActionResult> AdminViewList()
+		{
+			return View(await _context.MovieModel.ToListAsync());
+		}
+
+		// GET: Movies Search
+		[HttpPost]
+		public async Task<IActionResult> Search(string searchString)
+		{
+			return View("~/Views/Movies/Search.cshtml",await _context.MovieModel.Where(m => m.Title.Contains(searchString)).ToListAsync());
+		}
+
+
+	}
 }

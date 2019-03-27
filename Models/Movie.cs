@@ -16,6 +16,9 @@ namespace MoviesDbMVC.Models
 			Modified = new DateTime();
 
 		}
+
+		
+
 		[Key]
 		public int Id { get; set; }
 
@@ -42,6 +45,13 @@ namespace MoviesDbMVC.Models
 
 		[DataType(DataType.Date)]
 		public DateTime Modified { get; set; }
-		
+
+		private int plotMinLen = 100;
+
+		public string ShortPlot
+		{
+			get { return Plot != null ? Plot.Substring(0, Plot.Length > plotMinLen ? plotMinLen : Plot.Length) + (Plot.Length > plotMinLen ? "..." : "" ): ""; }
+		}
+
 	}
 }
